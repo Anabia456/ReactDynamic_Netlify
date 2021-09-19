@@ -1,0 +1,40 @@
+.nav-link{
+    padding-left: 60px;
+}
+.category-ul{
+    text-align: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+@media screen and (max-width: 991px) {
+    .category-ul{
+        margin-left: 0px;
+    }
+}
+.content img{
+    width: 80%;
+}
+.content h5{
+    color: rgb(187, 185, 185);
+}
+.showBtn{
+    width: 40%;
+    background-color: black;
+    border: 1px solid #E5BF4A;
+    color: #E5BF4A;
+    border-radius: 3px;
+}
+.showBtn:hover{
+    color: black;
+    background-color:#f4c23d;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.categoryFlex{
+    display: flex;
+}
+@media screen and (max-width: 991px) {
+    .categoryFlex{
+        display: block;
+    }
+}

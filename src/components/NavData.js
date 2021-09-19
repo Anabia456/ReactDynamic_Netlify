@@ -1,0 +1,20 @@
+export const NavData=[
+    {
+     title:'Home',
+     path:'/',
+     cName:'nav-item',
+     clName:'nav-link'   
+    },
+    {
+     title:'Categories',
+     path:'/categories',
+     cName:'nav-item',
+     clName:'nav-link'   
+    },
+    {
+     title:'Contact',
+     path:'/contact2',
+     cName:'nav-item',
+     clName:'nav-link'   
+    }
+]

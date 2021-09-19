@@ -1,0 +1,74 @@
+.jumbotron{
+    background-color: #fff;
+    box-shadow: 5px 5px 10px 1px rgb(48 47 47 / 30%);
+    border-radius: 5px;
+    text-align:left;
+}
+.icon {
+    font-size: 24px;
+    color: #1e1e1e;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    display: inline-block;
+    line-height: 40px;
+    text-align:center;
+    border-radius: 50%;
+    background-color: #f4c23d;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.jumbotron:hover{
+    border-bottom: 2px solid #007bff;
+}
+.jumbotron:hover .icon{
+    color: #fff;
+    background-color: #007bff;
+}
+.form{
+    background-color: #007bff;
+}
+.jumbotron2{
+    text-align: left;
+    border-radius:3px;
+    box-shadow: 5px 5px 10px 1px rgb(48 47 47 / 30%);
+}
+.home{
+    color: #DFDFDF;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Poiret One",cursive;
+}
+.schilers{
+    text-align: left;
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #ffc107;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+}
+.btn2{
+    background-color: black;
+    border: 1px solid #E5BF4A;
+    color: #E5BF4A;
+}
+.btn2:hover{
+    color: black;
+    background-color:#f4c23d;
+    border-radius:0px;
+    border-color:black;
+}
