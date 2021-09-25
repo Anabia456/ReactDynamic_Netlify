@@ -23,7 +23,7 @@ class RedVelvetCake extends React.Component {
 
    render() {
        return (
-           <div>
+           <div className="content">
                <RedVelvetDestructure posts={this.state.articles}/>
            </div>
        )
